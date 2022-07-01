@@ -1,0 +1,52 @@
+body{
+    background-size: cover;
+}
+.heading{
+    margin: 0px;
+    width: 100%;
+    font-size: 23px;
+}
+.note{
+    color: black;
+    font-size: 15px;
+}
+.div_speed{
+    float: left;
+}
+.div_speed_img{
+    width: 200px;
+    border-radius: 100px;
+}
+#speed{
+    font-size: 23px;
+    margin: 15px;
+}
+
+.div_volume{
+    float: right;
+}
+.div_volume_img{
+    width: 200px;
+    border-radius: 100px;
+}
+#volume{
+    font-size: 23px;
+    margin: 15px;
+}
+canvas{
+    border: 5px 5px solid white;
+    box-shadow: 1px 1px 38px black;
+    margin-top: 30px;
+    animation-name: ni;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 75px;    
+
+}
+
+   
+
+@keyframes ni{
+    from{box-shadow: 1px 1px 38px lightblue;}
+    to{box-shadow: 1px 1px 38px lightgreen;}
+}
